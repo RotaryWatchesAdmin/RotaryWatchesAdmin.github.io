@@ -486,12 +486,12 @@ p {
 .sidebar ul {
 	margin: 1px;
 	padding: 6px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 .sidebar ul li{
 	list-style: none;
-	width: 70px;
+	width: 75px;
 	margin-right: 0px;
 }
 
@@ -767,13 +767,13 @@ p {
 
 #download-btn img{
 	height: 20px;
-	margin-top: -2px;
+	margin-top: -3px;
 	display: inline-block;
 	vertical-align: middle;
 }
 
 #download-btn p{
-	font-size: 12px;
+	font-size: 11px;
 	margin-top: -2px;
 	line-height: 42px;
 	padding-right: 0px;
