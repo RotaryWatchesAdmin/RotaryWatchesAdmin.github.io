@@ -807,6 +807,8 @@ p {
 		
 	h1 {
 		text-align: center;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	
 	.family-description {
