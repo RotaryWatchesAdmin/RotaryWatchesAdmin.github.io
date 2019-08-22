@@ -32,16 +32,15 @@
 .rty-smallheader-alt .headerlogo.centered a.overlay,
 .rty-smallheader .headerlogo.centered a.overlay {
 	display: inline-block;
-	width: 400px;
-
-	height: 40px;
+	width: 375px;
+	height: 35px;
 }
 
 .rty-smallheader-alt .headerlogo,
 .rty-smallheader .headerlogo {
-	width: 400px;
-	height: 40px;
-	margin-top: 10px;
+	width: 375px;
+	height: 35px;
+	margin-top: 12px;
 	margin-bottom: 8px;
 	background-image: url("../images/brand/logo_x_ukja.png");
 	background-repeat: no-repeat;
