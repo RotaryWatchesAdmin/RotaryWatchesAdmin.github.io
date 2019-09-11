@@ -1459,7 +1459,7 @@ if (typeof Object.create !== "function") {
         stopOnHover : false,
 
         navigation : false,
-        navigationText : ["&#x25C0", "&#x25B6"],
+        navigationText : ["<img src='images/brand/arrow.svg'>", "<img src='images/brand/arrow.svg'>"],
         rewindNav : true,
         scrollPerPage : false,
 

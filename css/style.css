@@ -2,15 +2,14 @@
 
 .rty-solidheader .headerlogo.centered a.overlay {
 	display: inline-block;
-	width: 135px;
-	height: 50px;
+	width: 158px;
+	height: 57px;
 }
 
 .rty-solidheader .headerlogo {
-	width: 135px;
-	height: 50px;
-	margin-top: 11px;
-	margin-bottom: 10px;
+	width: 158px;
+	height: 57px;
+	margin-top: 25px;
 	background-image: url("../images/brand/logo.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -20,7 +19,7 @@
 	z-index: 999;
 	position: fixed;
 	width: 100%;
-	height: 70px;
+	height: 100px;
 	background-color: #fff;
 	text-align:center;
 	-webkit-transition: 0.5s;
@@ -359,37 +358,52 @@ p {
 } */
 
 .owl-theme .owl-controls .owl-buttons .owl-next,
-.owl-theme .owl-controls .owl-buttons .owl-prev{
+.owl-theme .owl-controls .owl-buttons .owl-prev {
 	font-size: 16px;
+	width: 40px;
+	height: 40px;
 	font-weight: bold;
 	text-align: center;
-	background: #a4b0ae;
+	background-color: #4B605B;
 	color: #48605c;
 	opacity:1;
 	margin: 5px;
 	float: none;
 	display: inline-block;
-	border-radius: 100px;
+	border-radius: 50%;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
-.owl-theme .owl-controls .owl-buttons .owl-next,
-.owl-theme .owl-controls .owl-buttons .owl-next:hover {
-	padding: 10px 17px 10px 17px;
+.owl-theme .owl-controls .owl-buttons .owl-next {
+	transform: rotate(90deg);
+	-ms-transform: rotate(90deg); /* IE 9 */
+	-webkit-transform: rotate(90deg); /* Safari 3-8 */
 }
 
-.owl-theme .owl-controls .owl-buttons .owl-prev,
-.owl-theme .owl-controls .owl-buttons .owl-prev:hover{
-	padding: 10px 17px 10px 17px;
+
+.owl-theme .owl-controls .owl-buttons .owl-prev {
+	transform: rotate(270deg);
+	-ms-transform: rotate(270deg); /* IE 9 */
+	-webkit-transform: rotate(270deg); /* Safari 3-8 */
+}
+
+.owl-theme .owl-controls .owl-buttons .owl-prev img,
+.owl-theme .owl-controls .owl-buttons .owl-next img {
+    margin-top: 11px;
+    width: 14px;
 }
 
 .owl-theme .owl-controls .owl-buttons .owl-next:hover,
 .owl-theme .owl-controls .owl-buttons .owl-prev:hover {
-	background: #a4b0ae;
+	background: #425350;
 	color: #ffffff;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
-	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 .owl-theme .owl-controls.clickable .owl-buttons div:hover{
@@ -439,7 +453,7 @@ p {
 }
 
 .owl-theme .owl-controls .owl-buttons div {
-	padding: 5px 9px;
+	padding: 0px;
 }
 
 .owl-theme .owl-buttons i{
@@ -511,8 +525,8 @@ p {
 }
 
 .AW19-look-book {
-	padding-top: 150px !important;
-	padding-bottom: 50px !important;
+	padding-top: 175px !important;
+	padding-bottom: 0px !important;
 }
 
 .AW19title {
@@ -709,19 +723,26 @@ p {
 .scrollup {
 	z-index: 99999;
 	height: 40px;
-	line-height: 40px;
 	width: 40px;
-	font-size: 14px;
 	vertical-align: middle;
 	text-align: center;
 	position: fixed;
-	bottom: 100px;
+	bottom: 135px;
 	right: 20px;
 	display: none;
 	background-color: #48605c;
 	color: #ffffff;
 	border-radius:20px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 	/*box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.6);*/
+}
+
+.scrollup img {
+    margin-top: 11px;
+    width: 14px;
 }
 
 .scrollup:active {
@@ -737,11 +758,6 @@ p {
 	-o-transition: all 0.1s ease-in-out;
 	transition: all 0.1s ease-in-out;
 }
-
-.scrollup:active {
-	background-color: #48605c;
-	color: #ffffff;
-}
 	
 #download-btn {
 	z-index: 99999;
@@ -752,7 +768,7 @@ p {
 	vertical-align: middle;
 	text-align: center;
 	position: fixed;
-	bottom: 50px;
+	bottom: 70px;
 	right: 20px;
 	background-color: #48605c;
 	color: #ffffff;
@@ -779,6 +795,15 @@ p {
 	display: inline-block;
 	color: #fff;
 	vertical-align: middle;
+}
+
+#download-btn:hover {
+	background-color: #425350;
+	color: #ffffff;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
 @media screen and (max-width: 1250px) {
